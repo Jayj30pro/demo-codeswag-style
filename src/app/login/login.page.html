@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login - JasonZJacobs.com</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <img src="assets/onusbs-man.png" alt="onusbs-man"/>
+    <ion-card-header>
+      <ion-card-title>JasonZJacobs.com</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input placeholder="username"></ion-input>
+      </ion-item>
+      <br/>
+      <ion-item>
+        <ion-input placeholder="password" type="password"></ion-input>
+      </ion-item>
+      <br/>
+      <ion-button (click)="openTheGate()">Login</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
